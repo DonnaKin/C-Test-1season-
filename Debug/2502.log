@@ -1,0 +1,38 @@
+﻿빌드 시작: 2017-06-29 오후 2:57:23
+     1>2 노드의 "F:\2502\2502\2502.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 2502_7.cpp
+         2502_7.cpp
+     1>f:\2502\2502\2502_7.cpp(8): error C2679: 이항 '>>' : 오른쪽 피연산자로 'int [5]' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(485): 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'일 수 있습니다.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(466): 또는       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(448): 또는       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(430): 또는       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(411): 또는       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(392): 또는       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(373): 또는       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(353): 또는       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(335): 또는       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(317): 또는       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(291): 또는       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(272): 또는       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(237): 또는       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(218): 또는       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::_Bool &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(211): 또는       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(204): 또는       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(198): 또는       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1103): 또는       'std::basic_istream<char,std::char_traits<char>> &std::operator >><char,std::char_traits<char>,int[5]>(std::basic_istream<char,std::char_traits<char>> &&,_Ty (&))'
+                 with
+                 [
+                     _Ty=int [5]
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1093): 또는       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1086): 또는       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char *)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1079): 또는       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1072): 또는       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)'
+                 인수 목록 '(std::istream, int [5])'을(를) 일치시키는 동안
+     1>"F:\2502\2502\2502.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.61
